@@ -1,10 +1,10 @@
-#include <stdio.h>    // For printf, fprintf, perror
-#include <stdlib.h>   // For exit
-#include <fcntl.h>    // For open
-#include <unistd.h>   // For read, close
+#include <stdio.h>    
+#include <stdlib.h>   
+#include <fcntl.h>    
+#include <unistd.h>   
 
 #define KMSG_PATH "/dev/kmsg"
-#define BUFFER_SIZE 4096 // A reasonable buffer size for reading kernel messages
+#define BUFFER_SIZE 4096 
 
 int main() {
     int fd;
@@ -40,7 +40,6 @@ int main() {
         }
     }
 
-    // This part will not be reached in the infinite loop, but good practice
     close(fd);
     return 0;
 }

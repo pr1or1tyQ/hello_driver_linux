@@ -1,15 +1,16 @@
 # Linux Kernel PWN
 
-todo: clean this up and update it
+
+- pahole (for viewing and manipulating data structure layout)
+- process struct
+- task struct
 
 looks like a good one to go through
 - https://snyk.io/blog/kernel-privilege-escalation/
 cred reference in task_struct
 - https://elixir.bootlin.com/linux/v5.18.17/source/include/linux/sched.h#L1042
 
-pahole 
 
-proc struct
 
 task struct: https://elixir.bootlin.com/linux/v6.6.16/source/include/linux/sched.h#L743
 
