@@ -1,10 +1,17 @@
 # Hello Kernel Driver (Linux)
 
-###
-Practice Linux Kernel Modules to get better at kernel pwn challenges
+### Practice Linux Kernel Modules to get better at kernel pwn challenges
 
 Note: this is the starting draft
-todo: clean up kernel_pwn_notes.md and update with things found
+
+#### todo 
+- clean up kernel_pwn_notes.md and update with things found
+- practice different methods to communicate between kernel and user space
+  - event driven (udev/uevents)
+  - ioctl
+  - shared memory space (mmap)
+  - syscalls to device files exposed by driver
+  - netlink socekts
 
 ## Usage
 - compile the module `make`
